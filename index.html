@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Template</title>
+    <title>Awesome Books</title>
 </head>
 <body>
     <main>
-        <h1>Awesome Books</h1>
-        <div id="row">
-        </div>
-        <div>
-            <form id="form">
-                <div>
-                    <input id="title" type="text" name="title" class="form-control" placeholder="Title">
-                </div>
-                <div>
-                    <input id="author" type="text" name="author" class="form-control" placeholder="Author">
-                </div>
-                <div>
-                    <button id="add" type="submit" class="btn btn-outline-dark">Add</button>
-                </div>
+        <div class="container mt-4">
+            <h1 class="display-4 text-center">All Awesome Books</h1>
+            <table class="table table-striped mt-5">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+            <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
             </form>
-        </div>
+          </div>        
     </main>
 
-    <script src="scripts.js"></script>
+      <script src="calss-scripts.js"></script>
 </body>
 </html>
