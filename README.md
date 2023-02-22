@@ -118,7 +118,7 @@ You can deploy this project using:
 
 👤 **Samson Tush**
 
-- GitHub: [@ab-noori](https://github.com/SamTush)
+- GitHub: [@Samson](https://github.com/SamTush)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
