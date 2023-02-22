@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://bootswatch.com/3/superhero/bootstrap.min.css">
     <title>Awesome Books</title>
 </head>
@@ -12,35 +14,40 @@
     <main>
         <div class="container mt-4">
             <h1 class="display-4 text-center">All Awesome Books</h1>
-            <table class="table table-striped mt-5">
-                <thead>
+            <table class="table table-striped mt-5 bg-success">
+                <!-- <thead>
                   <tr>
                     <th></th>
                     <th></th>
                     <th></th>
                     <th></th>
                   </tr>
-                </thead>
-                <tbody id="book-list"></tbody>
+                </thead> -->
+                <tbody id="book-list">
+
+                </tbody>
             </table>
+
+            <h1 class="display-4 text-center">Add a New Book</h1>
+
             <form id="book-form">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" id="title" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="author">Author</label>
-                <input type="text" id="author" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="isbn">ISBN#</label>
-                <input type="text" id="isbn" class="form-control">
-            </div>
-            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="isbn">ISBN#</label>
+                    <input type="text" id="isbn" class="form-control">
+                </div>
+                <input type="submit" value="Add Book" class="btn btn-primary btn-block">
             </form>
           </div>        
     </main>
 
-      <script src="calss-scripts.js"></script>
+      <script src="class-scripts.js"></script>
 </body>
 </html>
