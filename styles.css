@@ -1,6 +1,6 @@
 main {
-  width:400px; 
-  margin:20px auto;
+  width: 400px;
+  margin: 20px auto;
   display: flex;
   padding: 20px;
   flex-direction: column;
@@ -10,9 +10,9 @@ main {
 }
 
 form {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
 }
