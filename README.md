@@ -6,7 +6,7 @@
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|![screenshot](./images/avesome-books-shoot.PNG)|
+|![screenshot](images/avesome-books-shoot.PNG)|
 
 # 📗 Table of Contents
 
