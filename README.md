@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> # Salsal Developers Group Website
-### Mobile and Desktop view shoots for this project:
+> # Awesome Books
+### Desktop view shoots for this project:
 
 | Desktop Veiw Representation|
 |---------------------------------------|
